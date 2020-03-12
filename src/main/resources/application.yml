@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    adapter: postgresql
+    encoding: utf-8
+    url: *
+    driver-class-name: org.postgresql.Driver
+    username: *
+    password: *
+  main:
+    allow-bean-definition-overriding: true
